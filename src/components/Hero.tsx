@@ -10,6 +10,7 @@ import {
   Sparkles 
 } from 'lucide-react';
 import { personalInfo } from '../data';
+import profileImage from '../assets/profile.jpg';
 
 const Hero = () => {
   const { scrollY } = useScroll();
@@ -110,7 +111,7 @@ const Hero = () => {
             
             <div className="relative w-full h-full rounded-full overflow-hidden border-8 border-white/5 shadow-2xl group-hover:border-accent/20 transition-all duration-700">
               <img 
-                src="475838656_1350329439745664_2664636415981371472_n.jpg" 
+                src={profileImage} 
                 alt={personalInfo.name} 
                 className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
                 referrerPolicy="no-referrer"
