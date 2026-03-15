@@ -53,7 +53,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-zinc-400 text-xl mb-12 max-w-lg leading-relaxed font-medium">
-            Architect intelligent systems through <span className="text-white">AI Automation</span>, 
+            Architecting intelligent systems through <span className="text-white">AI Automation</span>, 
             <span className="text-white"> Machine Learning</span> & 
             <span className="text-white"> Data-Driven Insights</span>.
           </p>
